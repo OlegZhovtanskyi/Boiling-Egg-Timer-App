@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let eggTime = ["softButton" : 240, "mediumButton": 6, "hardButton": 720]
+    let eggTime = ["softButton" : 240, "mediumButton": 360, "hardButton": 720]
     var currentTime = 0
     var choosenButton = 0
     var buttonText = ""
