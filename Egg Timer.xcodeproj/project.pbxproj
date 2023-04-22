@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74B0CDA129F43E9A00BD71F7 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74B0CDA029F43E9A00BD71F7 /* alarm.mp3 */; };
 		74DF846929ED331500EE9634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DF846829ED331500EE9634 /* AppDelegate.swift */; };
 		74DF846B29ED331500EE9634 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DF846A29ED331500EE9634 /* SceneDelegate.swift */; };
 		74DF846D29ED331500EE9634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DF846C29ED331500EE9634 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74B0CDA029F43E9A00BD71F7 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
 		74DF846529ED331500EE9634 /* Egg Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DF846829ED331500EE9634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74DF846A29ED331500EE9634 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		74DF846729ED331500EE9634 /* Egg Timer */ = {
 			isa = PBXGroup;
 			children = (
+				74B0CDA029F43E9A00BD71F7 /* alarm.mp3 */,
 				74DF846829ED331500EE9634 /* AppDelegate.swift */,
 				74DF846A29ED331500EE9634 /* SceneDelegate.swift */,
 				74DF846C29ED331500EE9634 /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B0CDA129F43E9A00BD71F7 /* alarm.mp3 in Resources */,
 				74DF847529ED331600EE9634 /* LaunchScreen.storyboard in Resources */,
 				74DF847229ED331600EE9634 /* Assets.xcassets in Resources */,
 				74DF847029ED331500EE9634 /* Main.storyboard in Resources */,
