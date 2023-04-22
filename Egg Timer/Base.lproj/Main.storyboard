@@ -28,7 +28,7 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you like your eggs?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhT-Py-Db1">
                                                         <rect key="frame" x="0.0" y="0.0" width="368" height="308.66666666666669"/>
-                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                                        <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="35"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -44,11 +44,11 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="116" height="308.66666666666669"/>
                                                             </imageView>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmG-Uz-Omp">
-                                                                <rect key="frame" x="0.0" y="0.0" width="116" height="308.66666666666669"/>
+                                                                <rect key="frame" x="0.0" y="8" width="116" height="308.66666666666669"/>
                                                                 <color key="tintColor" systemColor="labelColor"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" title="Soft">
-                                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" Soft">
+                                                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C9z-Mc-Ewe"/>
@@ -58,10 +58,10 @@
                                                         <constraints>
                                                             <constraint firstItem="bmG-Uz-Omp" firstAttribute="leading" secondItem="2qf-CN-HMY" secondAttribute="leading" id="Jbz-r7-FSu"/>
                                                             <constraint firstItem="l1J-dV-9WQ" firstAttribute="top" secondItem="2qf-CN-HMY" secondAttribute="top" id="Jol-47-845"/>
-                                                            <constraint firstItem="bmG-Uz-Omp" firstAttribute="top" secondItem="2qf-CN-HMY" secondAttribute="top" id="Nym-of-v95"/>
+                                                            <constraint firstItem="bmG-Uz-Omp" firstAttribute="top" secondItem="2qf-CN-HMY" secondAttribute="top" constant="8" id="Nym-of-v95"/>
                                                             <constraint firstAttribute="trailing" secondItem="l1J-dV-9WQ" secondAttribute="trailing" id="OV8-ec-C87"/>
                                                             <constraint firstAttribute="trailing" secondItem="bmG-Uz-Omp" secondAttribute="trailing" id="elh-Dx-dtJ"/>
-                                                            <constraint firstAttribute="bottom" secondItem="bmG-Uz-Omp" secondAttribute="bottom" id="hNX-40-GqI"/>
+                                                            <constraint firstAttribute="bottom" secondItem="bmG-Uz-Omp" secondAttribute="bottom" constant="-8" id="hNX-40-GqI"/>
                                                             <constraint firstItem="l1J-dV-9WQ" firstAttribute="leading" secondItem="2qf-CN-HMY" secondAttribute="leading" id="uR8-EM-1GK"/>
                                                             <constraint firstAttribute="bottom" secondItem="l1J-dV-9WQ" secondAttribute="bottom" id="wVt-Rd-eJ2"/>
                                                         </constraints>
@@ -73,11 +73,11 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="116" height="308.66666666666669"/>
                                                             </imageView>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wqN-11-Pfh">
-                                                                <rect key="frame" x="0.0" y="0.0" width="116" height="308.66666666666669"/>
+                                                                <rect key="frame" x="0.0" y="8" width="116" height="308.66666666666669"/>
                                                                 <color key="tintColor" systemColor="labelColor"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Medium">
-                                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GRu-LW-Hse"/>
@@ -86,13 +86,13 @@
                                                         </subviews>
                                                         <constraints>
                                                             <constraint firstItem="vTY-TE-pO6" firstAttribute="top" secondItem="zAs-Zj-Hm9" secondAttribute="top" id="2s2-h3-5LM"/>
-                                                            <constraint firstItem="wqN-11-Pfh" firstAttribute="top" secondItem="zAs-Zj-Hm9" secondAttribute="top" id="5P2-3V-wnr"/>
+                                                            <constraint firstItem="wqN-11-Pfh" firstAttribute="top" secondItem="zAs-Zj-Hm9" secondAttribute="top" constant="8" id="5P2-3V-wnr"/>
                                                             <constraint firstAttribute="bottom" secondItem="vTY-TE-pO6" secondAttribute="bottom" id="5gm-7n-CaY"/>
                                                             <constraint firstAttribute="trailing" secondItem="vTY-TE-pO6" secondAttribute="trailing" id="DHj-w7-1K8"/>
                                                             <constraint firstAttribute="trailing" secondItem="wqN-11-Pfh" secondAttribute="trailing" id="Gbi-Tb-tOV"/>
                                                             <constraint firstItem="wqN-11-Pfh" firstAttribute="leading" secondItem="zAs-Zj-Hm9" secondAttribute="leading" id="X4A-if-AFV"/>
                                                             <constraint firstItem="vTY-TE-pO6" firstAttribute="leading" secondItem="zAs-Zj-Hm9" secondAttribute="leading" id="mV3-pI-Zdc"/>
-                                                            <constraint firstAttribute="bottom" secondItem="wqN-11-Pfh" secondAttribute="bottom" id="nKu-9s-Eq9"/>
+                                                            <constraint firstAttribute="bottom" secondItem="wqN-11-Pfh" secondAttribute="bottom" constant="-8" id="nKu-9s-Eq9"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="70k-iH-hss">
@@ -102,11 +102,11 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="116" height="308.66666666666669"/>
                                                             </imageView>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WME-vo-ydz">
-                                                                <rect key="frame" x="0.0" y="0.0" width="116" height="308.66666666666669"/>
+                                                                <rect key="frame" x="0.0" y="8" width="116" height="308.66666666666669"/>
                                                                 <color key="tintColor" systemColor="labelColor"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Hard">
-                                                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                                    <fontDescription key="titleFontDescription" name="Didot-Bold" family="Didot" pointSize="20"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
                                                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z3p-rn-Gcj"/>
@@ -115,13 +115,13 @@
                                                         </subviews>
                                                         <constraints>
                                                             <constraint firstItem="WME-vo-ydz" firstAttribute="leading" secondItem="70k-iH-hss" secondAttribute="leading" id="3dj-2Y-vsL"/>
-                                                            <constraint firstItem="WME-vo-ydz" firstAttribute="top" secondItem="70k-iH-hss" secondAttribute="top" id="7Iu-Op-aRC"/>
+                                                            <constraint firstItem="WME-vo-ydz" firstAttribute="top" secondItem="70k-iH-hss" secondAttribute="top" constant="8" id="7Iu-Op-aRC"/>
                                                             <constraint firstItem="3o4-ge-28d" firstAttribute="leading" secondItem="70k-iH-hss" secondAttribute="leading" id="NfT-pz-x5a"/>
                                                             <constraint firstAttribute="bottom" secondItem="3o4-ge-28d" secondAttribute="bottom" id="RiS-lc-yRz"/>
                                                             <constraint firstAttribute="trailing" secondItem="3o4-ge-28d" secondAttribute="trailing" id="TyL-Lg-OsR"/>
                                                             <constraint firstAttribute="trailing" secondItem="WME-vo-ydz" secondAttribute="trailing" id="lLn-yE-U5L"/>
                                                             <constraint firstItem="3o4-ge-28d" firstAttribute="top" secondItem="70k-iH-hss" secondAttribute="top" id="nMy-Jk-EJR"/>
-                                                            <constraint firstAttribute="bottom" secondItem="WME-vo-ydz" secondAttribute="bottom" id="qzo-pg-jFf"/>
+                                                            <constraint firstAttribute="bottom" secondItem="WME-vo-ydz" secondAttribute="bottom" constant="-8" id="qzo-pg-jFf"/>
                                                         </constraints>
                                                     </view>
                                                 </subviews>
@@ -131,14 +131,14 @@
                                                 <subviews>
                                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yMY-ae-plz">
                                                         <rect key="frame" x="0.0" y="152.33333333333326" width="368" height="4"/>
-                                                        <color key="tintColor" systemColor="systemOrangeColor"/>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </progressView>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.87058818339999999" green="0.9529411793" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="0.45000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="TE4-5s-Sif" secondAttribute="bottom" id="6bN-B1-z4Y"/>
                                     <constraint firstItem="TE4-5s-Sif" firstAttribute="leading" secondItem="IiN-1B-hXH" secondAttribute="leading" constant="30" id="Bwr-Ce-iNP"/>
@@ -178,9 +178,6 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
